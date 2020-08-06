@@ -7,7 +7,7 @@ feh --bg-fill ~/Pictures/night-bg.jpg
 xbacklight -set 10
 
 # Update .Xressources
-echo "#include \"~/.Xthemes/citydark\"" > ~/.Xresources
+echo "#include \"$HOME/.Xthemes/citydark\"" > ~/.Xresources
 xrdb ~/.Xresources
 
 # Update the alacritty color

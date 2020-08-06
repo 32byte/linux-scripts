@@ -7,7 +7,7 @@ feh --bg-fill ~/Pictures/day-bg.jpg
 xbacklight -set 45
 
 # Update .Xressources
-echo "#include \"~/.Xthemes/dracula\"" > ~/.Xresources
+echo "#include \"$HOME/.Xthemes/dracula\"" > ~/.Xresources
 xrdb ~/.Xresources
 
 # Update the alacritty color
